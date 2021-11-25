@@ -1,0 +1,25 @@
+{
+  "name": "study_git_actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --coverage",
+    "test:unit": "jest --passWithNoTests --silent --noStackTrace --runInBand --watch",
+    "test:verbose": "jest --passWithNoTests --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NormanFrieman/study_git_actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NormanFrieman/study_git_actions/issues"
+  },
+  "homepage": "https://github.com/NormanFrieman/study_git_actions#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
