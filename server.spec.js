@@ -6,6 +6,6 @@ describe('Test Functions', () => {
 
         const result = TestFunction(x, y);
 
-        expect(result).toBe(3);
+        expect(result).toBe(2);
     })
 })
