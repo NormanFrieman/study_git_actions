@@ -1,14 +1,8 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  build:
+ Explore-GitHub-Actions:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.17.0]
-        ci_node_total: [1]
-        ci_node_index: [0]
     
     steps:
       - run: npm install
